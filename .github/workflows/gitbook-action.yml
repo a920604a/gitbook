@@ -14,5 +14,5 @@ jobs:
       with:
         source_branch: main
         source_repo: a920604a/gitbook
-        time_zone: Ais/Taaipie
+        time_zone: Aisa/Taipei
         token: ${{ secrets.PERSONAL_TOKEN }}
