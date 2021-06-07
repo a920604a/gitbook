@@ -2,22 +2,29 @@
   "plugins": [
     "anchor-navigation-ex",
     "edit-link",
+    "ga",
+    "github",
     "copy-code-button",
     "theme-comscore",
-    "ga",
-    "search-pro",  "-lunr", "-search", 
-    "theme-faq",
+    "katex",
+     "-lunr", "-search", 
     "theme-api", 
     "chapter-fold",  "expandable-chapters",
-    "pageview-count" , "splitter", "custom-favicon ",
-    "todo", "multipart", "insert-logo ",
-    "back-to-top-button", "code", "github",
+    "pageview-count" , "splitter",
+     "multipart", 
+    "back-to-top-button", "code",
+    "page-treeview"
 
   ],
   "pluginsConfig": {
     "fontSettings": {
       "theme": "night",
       "family": "sans"
+    },
+    "page-treeview": {
+      "copyright": "Copyright &#169; aleen42",
+      "minHeaderCount": "2",
+      "minHeaderDeep": "2"
     },
     "theme-api": {
       "theme": "dark"
@@ -52,6 +59,12 @@
     },
     "ga": {
       "token": "UA-159327826-2"
-    }
+    },
+    "github": {
+      "url": "https://github.com/a920604a"
+  },
+    "mathjax":{
+      "forceSVG": true
+  }
   }
 }

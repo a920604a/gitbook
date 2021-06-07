@@ -13,3 +13,5 @@ docker build -t yuan/gitbook:1.0.0  .
 # gitbook build
 
 # gitbook action tutor   https://zlogs.net/gitbook-action/how-to-use#addaction
+
+# install plugin 到 source_book >> gitbook install 
