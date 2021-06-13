@@ -1,5 +1,9 @@
+# Introduction
 
-# Keywords
+###### tags: `python`
+
+
+## Keywords
 
 | False    | class    | from     |  or     | 
 | -------- | -------- | -------- |-------- |
@@ -12,11 +16,11 @@
 | await    | finally  | nonlocal |  yield  |
 | break    | for      | not      |         |
 
-# 簡介模組
+## 簡介模組
 ```shell=
 python hello.py World
 ```
-```python=
+```python
 # hello.py
 import sys
 print('Hello!' + sys.argv[1] + '!')
@@ -27,11 +31,11 @@ print('Hello!' + sys.argv[1] + '!')
 - 模組其實也是個名稱空間，模組名稱就是檔案名稱
 - 模組中宣告的變數或函式都是模組中的屬性，若要存取模組中的變數或函式等名稱，必須前置模組名稱，例如some.title這樣的名稱
 - 使用dir()函式，模組中的屬性名稱
-```python=
+```python
 dir(some)
 ['__builtins__', '__doc__', '__file__', '__name__', '__package__', 'name']
 ```
-```python=
+```python
 from some import x, y
 from some import *  # 不建議
 ```
@@ -39,7 +43,7 @@ from some import *  # 不建議
 - import 語句或from import語句只會在第一次匯入模組時執行模組中的程式碼
 - 直接載入某個.py檔案來執行，則可以使用open()開啟.py檔案，之後read()讀取檔案，再使用exec()來執行。 `exec(open('some.py').read())`
 - `__name__`屬性，如果你使用python指令直接執行某個.py檔案，則`__name__`屬性會被設定為`__main__`名稱
-```python=
+```python
 sys.path
 ['', 'C:\Windows\system32\python31.zip', 'c:\winwar
 e\python31\DLLs', 'c:\winware\python31\lib', 'c:\winware\python31\lib\p

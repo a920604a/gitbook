@@ -1,0 +1,35 @@
+{
+  "name": "source_book",
+  "version": "1.0.0",
+  "description": "<!--  * @Author: yuan  * @Date: 2021-05-31 09:12:35  * @LastEditTime: 2021-06-03 21:05:31  * @FilePath: /gitbook/source_book/README.md -->",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-chapter-fold": "^0.0.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-copy-code-button": "^0.0.2",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-katex": "^1.1.4",
+    "gitbook-plugin-mathjax": "^1.1.2",
+    "gitbook-plugin-mathjax-pro": "^0.0.6",
+    "gitbook-plugin-multipart": "^0.3.0",
+    "gitbook-plugin-pageview-count": "^1.0.1",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-splitter": "^0.0.8",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
+    "gitbook-plugin-theme-api": "^1.1.2",
+    "gitbook-plugin-theme-comscore": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
