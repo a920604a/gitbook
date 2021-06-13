@@ -1,36 +1,45 @@
 {
+  "styles": {
+    "website": "styles/main.css",
+    "ebook": "styles/main.css",
+    "pdf": "styles/main.css",
+    "mobi": "styles/main.css",
+    "epub": "styles/main.css"
+  },
   "plugins": [
     "anchor-navigation-ex",
     "edit-link",
     "ga",
     "github",
+    "theme-api",
     "copy-code-button",
     "theme-comscore",
-    "katex",
-     "-lunr", "-search", 
-    "theme-api", 
-    "chapter-fold",  "expandable-chapters",
-    "pageview-count" , "splitter",
-     "multipart", 
-    "back-to-top-button", "code",
-    "page-treeview"
+    "splitter",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "chapter-fold",
+    "expandable-chapters",
+    "pageview-count",
+    "multipart",
+    "back-to-top-button",
+    "code",
+    "mathjax",
+    "advanced-emoji",
+    "prism", "-highlight" ,
+    "tbfed-pagefooter",
+    "auto-scroll-table",
+    "popup",
 
+    "alerts","flexible-alerts"
   ],
   "pluginsConfig": {
     "fontSettings": {
       "theme": "night",
       "family": "sans"
     },
-    "page-treeview": {
-      "copyright": "Copyright &#169; aleen42",
-      "minHeaderCount": "2",
-      "minHeaderDeep": "2"
-    },
-    "theme-api": {
-      "theme": "dark"
-    },
     "theme-default": {
-      "showLevel": false
+      "showLevel": true
     },
     "anchor-navigation-ex": {
       "showLevel": false,
@@ -53,6 +62,9 @@
         "level3Icon": "fa fa-hand-o-right"
       }
     },
+    "theme-api": {
+      "theme": "dark"
+    },
     "edit-link": {
       "base": "https://github.com/a920604a/gitbook/edit/master/",
       "label": "Edit This Page"
@@ -62,9 +74,16 @@
     },
     "github": {
       "url": "https://github.com/a920604a"
-  },
-    "mathjax":{
-      "forceSVG": true
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright":"",
+      "modify_label": "該文件最後修改時間：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
   }
   }
 }
