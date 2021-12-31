@@ -5,7 +5,6 @@
     * [介紹篇](python/Introduction.md)
     * [數據類型篇](python/數據類型.md)
 * paper
-
     * [ResNet](paper/ResNet.md)
     2015/12
     * [ResNeXt](paper/ResNeXt.md)
